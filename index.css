@@ -18,6 +18,9 @@ h1 {
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 h2 {
   text-align: center;
