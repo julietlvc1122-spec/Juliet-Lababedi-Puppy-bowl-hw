@@ -22,10 +22,6 @@ async function getPuppies() {
   try {
     const res = await fetch(`${API}`);
     const json = await res.json();
-
-    // console.log(json.data);
-    // console.log(Array.isArray(json.data));
-
     puppies = json.data.players;
     console.log(puppies);
     render();
