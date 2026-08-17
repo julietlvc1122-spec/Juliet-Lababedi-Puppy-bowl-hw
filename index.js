@@ -141,7 +141,7 @@ async function removePuppy(id) {
 /// event name that wil; show more details when clicked
 function PuppyListItem(puppy) {
   const $puppyListItem = document.createElement("li");
-  $puppyListItem.innerHTML = `<a href="#selected">${puppy.name}</a>`;
+  $puppyListItem.innerHTML = `<a href="#">${puppy.name}</a>`;
   $puppyListItem.addEventListener("click", async function () {
     await getPuppy(puppy.id);
     console.log(selectedPuppy);
